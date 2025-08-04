@@ -40,3 +40,9 @@ var student= { name: "mewo" , roll: 96 ,department: "cse" };
 //write your code here
 console.log(student.name+student.roll+"."+student.department+"@ph.ac.bd");
 
+/** Problem 06 :  (Current Salary )  */
+var experience = 40;
+var startingSalary = 30000;
+//write your code here
+let result=startingSalary*Math.pow((1+0.05),experience);
+console.log(result.toFixed(2));
